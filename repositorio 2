@@ -1,0 +1,25 @@
+<?php
+	
+	$paises=array("Argentina","Francia","Colombia","Mexico");
+	$paises[]="Brasil";
+	
+	print_r($paises);
+	
+	//$paises=["Argentina","Francia","Colombia","Mexico"];
+	//unset($paises[2]);
+	//print_r($paises);
+	
+	//$paiseseliminar="Colombia";
+	//$llave =array_search($paiseseliminar,$paises);
+	
+	//if($llave!==false){
+	  //unset($paises[$llave]);
+	//}
+	
+	//print_r($paises);
+	
+	$paises[1]="España";
+	print_r($paises);
+
+
+?>
