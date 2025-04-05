@@ -1,0 +1,13 @@
+<?php
+
+$edades = array("Carlos" => 23, "Maria" => 21, "Juan" => 15, "Natalia" => 18, "Luis" => 25);
+
+$edades_filtradas = array_filter($edades, function($edad) {
+    return $edad >= 18;
+});
+
+asort($edades_filtradas);
+
+print_r($edades_filtradas);
+
+?>
