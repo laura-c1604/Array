@@ -1,0 +1,20 @@
+<?php
+
+$pila = array();
+
+array_push($pila, "producto 1");
+array_push($pila, "producto 2");
+array_push($pila, "producto 3");
+array_push($pila, "producto 4");
+array_push($pila, "producto 5");
+
+array_push($pila, "producto 6");
+array_push($pila, "producto 7");
+array_push($pila, "producto 8");
+array_push($pila, "producto 9");
+
+$producto = array_pop($pila);
+
+echo "Último producto ingresado a la pila es el " . $producto;
+
+?>
