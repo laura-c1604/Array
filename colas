@@ -1,0 +1,20 @@
+<?php
+
+$cola = array();
+
+array_push($cola, "mensaje 1");
+array_push($cola, "mensaje 2");
+array_push($cola, "mensaje 3");
+array_push($cola, "mensaje 4");
+array_push($cola, "mensaje 5");
+
+array_push($cola, "mensaje 6");
+array_push($cola, "mensaje 7");
+array_push($cola, "mensaje 8");
+array_push($cola, "mensaje 9");
+
+$mensaje = array_shift($cola);
+
+echo "Primer mensaje ingresado a la cola es el " . $mensaje;
+
+?>
